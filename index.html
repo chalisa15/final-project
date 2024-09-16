@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Our Winter Collection!</h1>
+        <p>Discover our hottest deals this season.</p>
+        <button>View Collection</button>
+    </section>
+
+    <!-- Body Section (Products) -->
+    <section class="products">
+        <div class="product">
+            <img src="https://static-jaymart.com/ecom/public/2gqs1b9Qcmi5WhJI8QMBWIbIkmW.jpg" alt="Luxury Watch">
+            <h2><a href="product1.html">Luxury Watch</a></h2>
+            <p>$250</p>
+        </div>
+        <div class="product">
+            <img src="https://images.asics.com/is/image/asics/1011B794_001_SR_RT_GLB?$zoom$" alt="Shoes for Men">
+            <h2><a href="product2.html">Shoes for Men</a></h2>
+            <p>$120</p>
+        </div>
+        <div class="product">
+            <img src="https://d2cva83hdk3bwc.cloudfront.net/nike-big-swoosh-reversible-boa-jacket--asia-sizing--black-white-1.jpg" alt="Denim Jacket">
+            <h2><a href="product3.html">Denim Jacket</a></h2>
+            <p>$80</p>
+        </div>
+        <div class="product">
+            <img src="data:image/png;base64,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" alt="Designer Glasses">
+            <h2><a href="product4.html">Designer Glasses</a></h2>
+            <p>$60</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us at: chalisano15@gmail.com</p>
+        <p>Follow us on social media</p>
+    </footer>
+</body>
+</html>
